@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: top.soft.classoa.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.528 s <<< FAILURE! -- in top.soft.classoa.service.UserServiceTest
+top.soft.classoa.service.UserServiceTest.notExitUser -- Time elapsed: 0.471 s <<< ERROR!
+javax.security.auth.login.LoginException: 用户名不存在
+	at top.soft.classoa.service.UserService.login(UserService.java:20)
+	at top.soft.classoa.service.UserServiceTest.notExitUser(UserServiceTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+top.soft.classoa.service.UserServiceTest.errorPassword -- Time elapsed: 0.003 s <<< ERROR!
+javax.security.auth.login.LoginException: 密码错误
+	at top.soft.classoa.service.UserService.login(UserService.java:25)
+	at top.soft.classoa.service.UserServiceTest.errorPassword(UserServiceTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

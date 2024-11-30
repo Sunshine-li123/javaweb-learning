@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="top.soft.classoa.service.UserServiceTest" time="0.528" tests="3" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\software\Javaweb-learning\class-oa\target\test-classes;D:\software\Javaweb-learning\class-oa\target\classes;D:\tools\maven_jar\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;D:\tools\maven_jar\org\junit\jupiter\junit-jupiter-api\5.11.0-M2\junit-jupiter-api-5.11.0-M2.jar;D:\tools\maven_jar\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\tools\maven_jar\org\junit\platform\junit-platform-commons\1.11.0-M2\junit-platform-commons-1.11.0-M2.jar;D:\tools\maven_jar\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\tools\maven_jar\org\junit\jupiter\junit-jupiter-engine\5.11.0-M2\junit-jupiter-engine-5.11.0-M2.jar;D:\tools\maven_jar\org\junit\platform\junit-platform-engine\1.11.0-M2\junit-platform-engine-1.11.0-M2.jar;D:\tools\maven_jar\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;D:\tools\maven_jar\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;D:\tools\maven_jar\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;D:\tools\maven_jar\ch\qos\logback\logback-classic\1.4.12\logback-classic-1.4.12.jar;D:\tools\maven_jar\ch\qos\logback\logback-core\1.4.12\logback-core-1.4.12.jar;D:\tools\maven_jar\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;D:\tools\maven_jar\com\alibaba\druid\1.2.8\druid-1.2.8.jar;D:\tools\maven_jar\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;D:\tools\maven_jar\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\tools\maven_jar\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;D:\tools\maven_jar\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;D:\tools\maven_jar\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;D:\tools\maven_jar\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\86189\AppData\Local\Temp\surefire152761360666884982\surefirebooter-20241130162300781_3.jar C:\Users\86189\AppData\Local\Temp\surefire152761360666884982 2024-11-30T16-23-00_669-jvmRun1 surefire-20241130162300781_1tmp surefire_0-20241130162300781_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\software\Javaweb-learning\class-oa\target\test-classes;D:\software\Javaweb-learning\class-oa\target\classes;D:\tools\maven_jar\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;D:\tools\maven_jar\org\junit\jupiter\junit-jupiter-api\5.11.0-M2\junit-jupiter-api-5.11.0-M2.jar;D:\tools\maven_jar\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\tools\maven_jar\org\junit\platform\junit-platform-commons\1.11.0-M2\junit-platform-commons-1.11.0-M2.jar;D:\tools\maven_jar\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\tools\maven_jar\org\junit\jupiter\junit-jupiter-engine\5.11.0-M2\junit-jupiter-engine-5.11.0-M2.jar;D:\tools\maven_jar\org\junit\platform\junit-platform-engine\1.11.0-M2\junit-platform-engine-1.11.0-M2.jar;D:\tools\maven_jar\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;D:\tools\maven_jar\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;D:\tools\maven_jar\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;D:\tools\maven_jar\ch\qos\logback\logback-classic\1.4.12\logback-classic-1.4.12.jar;D:\tools\maven_jar\ch\qos\logback\logback-core\1.4.12\logback-core-1.4.12.jar;D:\tools\maven_jar\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;D:\tools\maven_jar\com\alibaba\druid\1.2.8\druid-1.2.8.jar;D:\tools\maven_jar\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;D:\tools\maven_jar\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\tools\maven_jar\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;D:\tools\maven_jar\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;D:\tools\maven_jar\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;D:\tools\maven_jar\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\86189"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\software\Javaweb-learning\class-oa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\86189\AppData\Local\Temp\surefire152761360666884982\surefirebooter-20241130162300781_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="86189"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\tools\maven_jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\86189\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.2.4"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\software\Javaweb-learning\class-oa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\Tencent\QQ\Bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-17\bin;D:\tools\apache-maven-3.9.9\bin;D:\tools\apache-tomcat-10.1.28\bin;C:\Program Files\Git\cmd;%NODE_HOME%;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global\node_modules\@vue\cli\bin;C:\Users\86189\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin;;C:\Program Files\JetBrains\CLion 2024.1.4\bin;;C:\Users\86189\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\tools\maven_jar"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="notExitUser" classname="top.soft.classoa.service.UserServiceTest" time="0.471">
+    <error message="用户名不存在" type="javax.security.auth.login.LoginException"><![CDATA[javax.security.auth.login.LoginException: 用户名不存在
+	at top.soft.classoa.service.UserService.login(UserService.java:20)
+	at top.soft.classoa.service.UserServiceTest.notExitUser(UserServiceTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[16:23:01.770 [main] INFO com.alibaba.druid.pool.DruidDataSource -- {dataSource-1} inited
+16:23:01.795 [main] DEBUG org.apache.ibatis.logging.LogFactory -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+16:23:01.802 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Opening JDBC Connection
+16:23:01.804 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+16:23:01.812 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- ==>  Preparing: select * from sys_user where username =?
+16:23:01.831 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- ==> Parameters: t71(String)
+16:23:01.850 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- <==      Total: 0
+16:23:01.852 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+16:23:01.855 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+]]></system-out>
+  </testcase>
+  <testcase name="login" classname="top.soft.classoa.service.UserServiceTest" time="0.021">
+    <system-out><![CDATA[16:23:01.869 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Opening JDBC Connection
+16:23:01.869 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+16:23:01.869 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- ==>  Preparing: select * from sys_user where username =?
+16:23:01.870 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- ==> Parameters: t7(String)
+16:23:01.875 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- <==      Total: 1
+16:23:01.875 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+16:23:01.876 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+User(userId=2, username=t7, password=dcfa022748271dccf5532c834e98ad08, employeeId=2, salt=189)
+]]></system-out>
+  </testcase>
+  <testcase name="errorPassword" classname="top.soft.classoa.service.UserServiceTest" time="0.003">
+    <error message="密码错误" type="javax.security.auth.login.LoginException"><![CDATA[javax.security.auth.login.LoginException: 密码错误
+	at top.soft.classoa.service.UserService.login(UserService.java:25)
+	at top.soft.classoa.service.UserServiceTest.errorPassword(UserServiceTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[16:23:01.890 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Opening JDBC Connection
+16:23:01.890 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+16:23:01.891 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- ==>  Preparing: select * from sys_user where username =?
+16:23:01.891 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- ==> Parameters: t7(String)
+16:23:01.891 [main] DEBUG top.soft.classoa.mapper.UserMapper.selectByUsername -- <==      Total: 1
+16:23:01.892 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+16:23:01.892 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction -- Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@117e0fe5]
+]]></system-out>
+  </testcase>
+</testsuite>
