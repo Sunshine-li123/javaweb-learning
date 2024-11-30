@@ -1,0 +1,5 @@
+top\soft\brandlist\entity\Brand.class
+top\soft\brandlist\servlet\AddBrandServlet.class
+top\soft\brandlist\servlet\DeleteServlet.class
+top\soft\brandlist\servlet\BrandServlet.class
+top\soft\brandlist\entity\Brand$BrandBuilder.class
